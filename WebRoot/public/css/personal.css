@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+#wrap {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 50px;
+	clear: both;
+	_padding-top: 0;
+	overflow: hidden;
+}
+
+#header {
+	width: 1024px;
+	margin: 0 auto;
+	clear: both;
+	height: 80px;
+}
+#logo {
+	float: left;
+	margin: 10px 0;
+}
+#logo a {
+	display: block;
+	width: 180px;
+	height: 59px;
+	background: url(../images/logo.gif) no-repeat;
+}
+/**nv**/
+#nv {
+	overflow: hidden;
+	padding: 17px 0px;
+	height: 36px;
+}
+#nv li.a a {
+	border-bottom: 2px solid #27b3f0;
+}
+#nv li a {
+	display: inline-block;
+	padding: 0px 6px;
+	margin: 0px 19px;
+}
+#nv li a:hover {
+	color:#999;
+}
+#nv li {
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+}
+ul li {
+	list-style: none;
+}
+a {
+	color: #333;
+	text-decoration: none;
+	outline: none;
+}
+#nv .separator {
+	height: 10px;
+	margin-top: 13px;
+}
+.separator {
+	background: url("../images/main_icon.png") no-repeat -67px -220px;
+	width: 1px;
+	height: 10px;
+	_background-image: url("../images/main_icon.png");
+}
+/**主体部分**/
+.pmain{
+	box-shadow: 0 0 4px #ECECEC;
+	width: 1024px;
+	_overflow: hidden;
+	background-color: #FFFFFF;
+}
+.same_block{
+	padding:20px;
+	
+}
+.same_block table,.select_head{
+	width:600px;
+	margin:0 auto;
+}
+.same_block tr{
+	line-height:40px;
+	
+}
+.same_block input{padding:5px;}
+.information textarea{width:400px;padding:5px;resize:none;}
+.le{text-align:left;}
+.ri{text-align:right;width:200px;}
+.select_head a {
+	display: block;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #ccc;
+	padding:3px;
+	float:left;
+	margin-right:20px;
+}
+.upload_head{clear:both;border-top: 1px solid #ccc;}
+#photostyle{margin:20px auto;width:600px;}
+.show_head {
+	display: block;
+	width: 128px;
+	height: 128px;
+	border: 1px solid #ccc;
+	padding:3px;
+}
+.select_head a.selected{border-color:#237AFC;}
+
+.bluebtn {
+	display: inline-block;
+	background-color: #32a5e7;
+	border: 1px solid #32a5e7;
+	border-radius: 2px 2px 2px 2px;
+	color: #FFF;
+	cursor: pointer;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px !important;
+}
+.bluebtn:hover{color:#FFF;}
+.block{display:none;}

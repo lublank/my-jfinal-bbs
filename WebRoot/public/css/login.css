@@ -1,0 +1,93 @@
+@charset "utf-8";
+		body{margin:0px; padding:0px;}
+		
+        @charset "utf-8";
+		
+		#Login{width: 400px;
+			margin: 0 auto;
+			padding-top: 10%;
+			}	
+        .login-wrapper {
+            width: 400px;
+            position:absolute;
+        }
+
+        .well-white {
+            background-color: #fff;
+            border: 1px solid #d5d5d5;
+			padding-bottom: 20px;
+            position: relative;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            border-radius: 6px;
+            -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+            -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+        }      
+		
+		.error{
+			font-size:12px;
+			color:#F30;
+			text-align:left;
+			margin-left:0;
+		}
+		.icon-info-sign{
+			icon:url(../images/icons.png) ;		
+		    background-position: -120px -96px;
+		}
+		
+        #frmlogin {display:block;
+            margin:0 auto;
+            width: 400px;
+        }
+
+		a:hover {
+			color: #005580;
+		}
+	   #username,#password,#verify1 {
+		   border-radius: 2px;
+		   height:25px;
+		   width:147px;
+		   margin:5px 1px;
+	   }
+	   
+
+	   legend {
+		  text-align:center;
+		  font-weight: bold;
+		}
+		input:focus:invalid:focus,
+		textarea:focus:invalid:focus,
+		select:focus:invalid:focus {
+		  border-color: #e9322d;
+		  -webkit-box-shadow: 0 0 6px #f8b9b7;
+			 -moz-box-shadow: 0 0 6px #f8b9b7;
+				  box-shadow: 0 0 6px #f8b9b7;
+		}
+	   
+	   .btn_close{background:url(../images/close.png) no-repeat; width:32px; height:32px; z-index:1001; right:0; top:0; position:absolute;}
+	   
+	   	 #frmregister {	width:400px; }
+		
+		#user,#pwd,#pwda,#email,#verify2{
+           border-radius: 2px;
+		   height:25px;
+           width:147px;
+		   margin:5px 1px;
+	   }
+	   
+	   .control-label{font-size:16px; color:#666; margin-left:0;}
+        .control-group
+        {
+            margin-left:50px;
+        }
+	   
+	   #register {margin-top:10px; width:60px; height:30px;}
+	   
+	   #Register{display:none;width: 400px;margin: 0 auto;padding-top: 10%;}
+		
+	   .img{cursor : pointer; height:30px; top:8px; border:0;}
+	   .imge{display:block;}

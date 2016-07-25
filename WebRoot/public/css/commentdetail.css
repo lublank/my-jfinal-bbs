@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+#wrap {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 50px;
+	clear: both;
+	_padding-top: 0;
+	overflow: hidden;
+}
+
+#header {
+	width: 1024px;
+	margin: 0 auto;
+	clear: both;
+	height: 80px;
+}
+#logo {
+	float: left;
+	margin: 10px 0;
+}
+#logo a {
+	display: block;
+	width: 180px;
+	height: 59px;
+	background: url(../images/logo.gif) no-repeat;
+}
+#reply{margin-right:10px;}
+
+/**tiezi**/
+.content_tz{margin:5px 20px;}
+.top_tz{font-size: 12px; padding:10px 0;border-bottom: 1px dashed #aeaeae;}
+.ctime{color:#aaa;}
+
+.detail_tz{overflow: hidden;clear: both;padding: 15px 0;}
+.title{color:#32a5e7;font-size:20px;padding-bottom: 10px;}
+
+.plate{
+	box-shadow: 0 0 4px #ECECEC;
+	width: 770px;
+	float: right;
+	_overflow: hidden;
+	}
+.bm{background-color: #FFFFFF;}
+/**回复**/
+.replypost {
+	margin-top: 10px;
+	padding: 5px 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0 0 4px #ECECEC;
+}
+.replynum{font-size:20px;}
+.authi{margin:5px 0;}
+.authi span{font-size:12px;}
+.name_uinfo{color:#32a5e7;font-size: 12px;}
+.name_uinfo:hover{color:#08c;}
+.recontent{padding:20px 0;border-bottom: 1px dashed #aeaeae;}
+.error_msg{color:#c00;}

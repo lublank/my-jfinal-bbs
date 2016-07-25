@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+		.wrap{width:1024px; min-height:800px; margin:0 auto;}
+        
+        .ke-toolbar-icon-url {
+	        background-image:url(../images/default.png);
+        }
+        .ke-statusbar-center-icon {
+	        background-position: -0px -754px;
+	        width: 15px;
+	        height: 11px;
+	        background-image:url(../images/default.png);
+        }
+        .ke-statusbar-right-icon {
+	        position: absolute;
+	        right: 0;
+	        bottom: 0;
+	        cursor: se-resize;
+	        background-position: -5px -741px;
+	        width: 11px;
+	        height: 11px;
+	        background-image: url(../images/default.png);
+        }
+        .modal_close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+        width: 32px;
+        height: 32px;
+        background: url(../images/modal_close.png);
+        z-index: 2;
+        }
+		.td-head{
+			background: url(../images/zt_head.png) center top no-repeat;
+			height: 74px;
+			top: 80px;
+			position: relative;
+		}
+		.td-center{
+			background: url(../images/zt_center.png) center top repeat-y;
+			overflow: hidden;
+			position: relative;
+			top: 80px;
+		}
+		.pantent{
+			width:95%;
+			padding:30px;
+		}
+		.td-foot{
+			background: url(../images/zt_foot.png) center bottom no-repeat;
+			height: 50px;
+			overflow: hidden;
+			padding: 0;
+			position: relative;
+			top: 80px;
+		}
+		.td_title {
+			width: 900px;
+			height: 30px;
+			margin: 0 auto;
+			padding-top: 5px;
+			line-height: 30px;
+			color: #FFF;
+			text-shadow: 1px 1px 1px #000;
+			overflow: hidden;
+		}
+		.td_title .td_title_ico {
+			background: url(../images/borcombg.png) no-repeat;
+			width: 15px;
+			height: 15px;
+			display: inline-block;
+			vertical-align: middle;
+			margin: 0;
+		}
+		.td_title_ico a:hover{
+			color: #09F;
+			text-decoration: underline;
+		}
+		.td_title em {
+			font-style: normal;
+			line-height: 30px;
+			vertical-align: middle;
+		}
+		.td_title a {
+			color: #FFF;
+			text-shadow: 1px 1px 1px #000;
+			vertical-align: middle;
+		}
+		#footer{
+			position: relative;
+			top: 80px;
+		}
